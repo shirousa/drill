@@ -1,0 +1,27 @@
+{
+  "name": "drill",
+  "version": "0.0.1",
+  "description": "Library that supports object search",
+  "main": "index.js",
+  "scripts": {
+    "test": "tsc && mocha ./dist/*.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shirousa/drill.git"
+  },
+  "keywords": [],
+  "author": "Shirousa",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/shirousa/drill/issues"
+  },
+  "homepage": "https://github.com/shirousa/drill#readme",
+  "devDependencies": {
+    "@types/chai": "^4.1.7",
+    "@types/mocha": "^5.2.7",
+    "chai": "^4.2.0",
+    "typemoq": "^2.1.0",
+    "typescript": "^3.5.3"
+  }
+}
